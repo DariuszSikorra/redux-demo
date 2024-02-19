@@ -1,0 +1,44 @@
+.search-bar {
+  width: fit-content;
+  margin: auto;
+}
+
+.games-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: fit-content;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: fit-content;
+  margin: 5px;
+}
+
+.game-img {
+  width: 100%;
+  aspect-ratio: calc(16 / 9);
+}
+
+.game-title {
+  margin: auto;
+}
+
+.game-rating {
+  width: fit-content;
+  margin-left: auto;
+}
+
+
+.pagination-container {
+  width: fit-content;
+  margin: auto;
+}
+
+.text {
+  color: gray;
+}

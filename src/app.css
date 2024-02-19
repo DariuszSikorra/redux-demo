@@ -1,0 +1,17 @@
+.app {
+  background-color: #0f0f0f;
+  width: 100vw;
+  min-width: 300px;
+  min-height: 100vh;
+}
+
+.search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination-container {
+  width: fit-content;
+  margin: auto;
+}
